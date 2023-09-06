@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>Temp-Conversion</title>
+</head>
+
+<body>
+    <img src="Images/backgroundImage.jpg" alt="bkg" class="bkg-image">
+    <div class="main-box">
+        <h1 class="heading">
+                Temperature-Convertor
+        </h1>
+        <div class="lower-box">
+            <div class="first-box">
+                <label for="first-option" class="sub-heading">From: </label>
+                <select name="temp-units" id="temp-unit1" class="optionOne options">
+                    <option value="celsius">Celsius</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                    <option value="kelvin">Kelvin</option>
+                </select>
+                <input type="text" name="data1" id="inputData" class="userData" placeholder="Enter input here">
+            </div>
+            <div class="convert-button">
+                <button id="convrt-btn" onclick="tempConvert()">Convert</button>
+            </div>
+            <div class="second-box">
+                <label for="second-option" class="sub-heading">To: </label>
+                <select name="temp-units" id="temp-unit2" class="optionTwo options">
+                    <option value="celsius">Celsius</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                    <option value="kelvin">Kelvin</option>
+                </select>
+                <div class="userData" id="outputData">Output shown here</div>
+            </div>
+        </div>
+        <div class="mostLowerBox">
+            <div class="box Cel">
+                <h3>For 1° Celsius</h3>
+                <p class="center2">33.8°F 
+                    <br>
+                    274.15K
+                </p>
+            </div>
+            <div class="box Fah">
+                <h3>For 1° Fahrenheit</h3>
+                <p class="center2">-17.22°C
+                    <br>
+                    255.928K
+                </p>
+            </div>
+            <div class="box Kel">
+                <h3>For 1 Kelvin</h3>
+                <p class="center2">-457.87°F 
+                    <br>
+        -272.1°C
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

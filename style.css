@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bkg-image {
+    width: 100%;
+    height: 100vh;
+    opacity: 80%;
+    position: absolute;
+    z-index: 1;
+}
+
+.main-box {
+    position: absolute;
+    z-index: 2;
+    height: 60%;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 27%;
+    background-color: rgb(241, 190, 190);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    opacity: 90%;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    margin-top: 18px;
+    font-weight: 650;
+    font-size: 2rem;
+}
+.first-box{
+    height: 150px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.second-box{
+    height: 150px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.lower-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4.5%;
+}
+.sub-heading{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 650;
+    font-size: 20px;
+}
+.options{
+    width: 10em;
+    height: 40px;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: medium;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    opacity: 99%;
+    outline: none;
+    text-decoration: none;   
+}
+.userData{
+    width: 9em;
+    height: 17px;
+    border-radius: 6px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: medium;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    opacity: 99%;
+    outline: none;
+    text-decoration: none;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+#outputData{
+    background-color: whitesmoke;
+    text-overflow: ellipsis;
+}
+.mostLowerBox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.center2{
+    display: flex;
+    justify-content: center;
+}
+
+#convrt-btn{
+    height: 55px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid whitesmoke;
+    background-color: rgb(58, 35, 35);
+    opacity: 100%;
+    color: whitesmoke;
+}
+.convert-button{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
